@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="justify-between items-center w-auto px-[130px] min-w-[1440px] h-[440px] top-[4444px] left-[-1px] bg-[#FCEED5] rounded-tl-[40px] rounded-tr-[40px]">
+    <div className="justify-between items-center w-auto px-[130px] pb-[32px] pt-[48px]  min-w-[1440px] h-[440px] top-[4444px] left-[-1px] bg-[#FCEED5] rounded-tl-[40px] rounded-tr-[40px]">
       {/* Top Section: Subscription and Navigation Links */}
       <div className="flex flex-col w-auto min-w-[1180px] h-auto min-h-[240px] top-[80px] left-[130px] border-b pb-[40px] gap-[40px] border-[#CCD1D2]">
         {/* Subscription Call-to-Action */}
