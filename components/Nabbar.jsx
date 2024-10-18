@@ -4,8 +4,8 @@ import StarCircle from "./StarCircle";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center pt-[28px] pr-[130px] pb-[28px] pl-[130px] w-auto min-w-[100px] bg-[#F7DBA7]">
-      {/* left */}
+    <nav className="flex justify-between items-center pt-[28px] pr-[130px] pb-[28px] pl-[130px] w-auto min-w-[100px] bg-[#FCEED5]">
+      {/* Left Section: Logo and Navigation Links */}
       <div className=" flex gap-12 w-auto min-w-[529px] h-auto min-h-[40px]">
         {/* LOGO  */}
         <div className="w-[115px] h-[40px] cursor-pointer">
@@ -14,7 +14,7 @@ const Navbar = () => {
             pets for best
           </span>
         </div>
-        {/* Navigation Links  */}
+        {/* Navigation Links */}
         <ul className="flex w-auto min-w-[366px] h-auto min-h-[24px] gap-12 py-2 ">
           <li>
             <a
@@ -50,21 +50,29 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-
+      {/* Right Section: Search Bar, Join Button, and Currency Selector */}
       <div className="flex items-center gap-[14px] w-auto min-w-[615px] h-auto min-h-[44px]">
-        {/* SEARCH BAR */}
+        {/* Search Bar */}
         <div className="flex w-[280px] h-auto min-h-[44px] rounded-[46px] px-3 pr-5 pl-4 gap-3 bg-[#FDFDFD]">
-          <Image src="" alt="search" width={20} height={20} />
+          <Image
+            src="/assets/icons/search.svg"
+            alt="search"
+            width={20}
+            height={20}
+          />
           <input
             type="text"
             placeholder="Search something here"
             className="font-[500px] text-[14px] leading-5 text-[#99A2A5]"
           />
         </div>
-        {/* JOIN COMMUNITY BUTTON */}
+        {/* Join Community Button */}
         <button className="bg-[#003459] font-xl gap-[10px] text-white px-[14px] pr-[28px]  pl-[28px] rounded-[57px] h-11 w-auto min-w-[203px]">
-          Join the community
+          <p className="font-[700px] text-[16px] leading-6 text-[#FDFDFD] w-[147px] h-6">
+            Join the community
+          </p>
         </button>
+        {/* Currency Selector */}
         <div className="flex pt-[10px] pr-[8px] pb-[8px] pl-[8px] gap-1 ">
           <div className="flex gap-[6px] w-auto min-w-[60px] h-auto min-h-[23px]">
             <div className="w-[21px] h-[21px] mt-1">
@@ -76,7 +84,7 @@ const Navbar = () => {
             src="/assets/icons/downArrow.svg"
             width={24}
             height={24}
-            className="bg-[#F7DBA7]"
+            className="bg-[#FCEED5]"
           />
         </div>
       </div>
