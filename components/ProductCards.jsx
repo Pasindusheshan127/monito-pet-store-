@@ -3,9 +3,9 @@ import React from "react";
 
 const ProductCards = () => {
   return (
-    <div className="w-[1440px] h-[986px] top-[695px] px-[130px] my-2">
+    <div className="border w-[1440px] h-[1122px] top-[2059px] px-[130px] my-2">
       {/* Section Header */}
-      <div className="flex justify-between mt-16">
+      <div className="flex justify-between">
         <div className="">
           <div className="m-auto h-auto min-w-[326px] min-h-[24px] font-[500] text-[16px] leading-6 text-[#000000]">
             Hard to choose right products for your pets?

@@ -3,9 +3,9 @@ import React from "react";
 
 const PetCards = () => {
   return (
-    <div className="w-[1440px] h-[986px] top-[695px] px-[130px]">
+    <div className="border w-[1440px] h-[986px] top-[695px] px-[130px] mt-4">
       {/* Section Header */}
-      <div className="flex justify-between mt-16">
+      <div className="flex justify-between ">
         <div className="w-auto min-w-[367px] h-auto min-h-[63px] top-[60px] left-[130px] gap-[2px]">
           <div className="w-[91px] h-[24px] font-[500] text-[16px] leading-6 text-[#000000]">
             What's new?
