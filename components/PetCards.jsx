@@ -3,7 +3,7 @@ import React from "react";
 
 const PetCards = () => {
   return (
-    <div className="f w-[1440px] h-[986px] top-[695px] px-[130px]">
+    <div className="w-[1440px] h-[986px] top-[695px] px-[130px]">
       {/* Section Header */}
       <div className="flex justify-between mt-16">
         <div className="w-auto min-w-[367px] h-auto min-h-[63px] top-[60px] left-[130px] gap-[2px]">
@@ -32,7 +32,7 @@ const PetCards = () => {
       </div>
 
       {/* pet cards */}
-      <div className="grid grid-cols-4 gap-[8px] ">
+      <div className="grid grid-cols-4 gap-[8px] my-[28px] ">
         {/* Pet Card Section */}
         <div className=" w-auto h-auto min-w-[280px] min-h-[378px] top-[548px] left-[1030px] rounded-xl pt-2 px-2 gap-2 bg-[#FDFDFD]">
           {/* Pet Image */}
@@ -61,8 +61,8 @@ const PetCards = () => {
                     Male
                   </div>
                 </div>
-                <div className="w-auto h-auto min-w-[18px] font-[700] text-[12px] ml-1 min-h-[18px] text-[#667479]">
-                  .
+                <div className="min-w-[18px] min-h-[18px]">
+                  <div className="w-1 h-1 rounded-full bg-[#667479]"></div>
                 </div>
                 {/* Age */}
                 <div className="flex w-auto h-auto min-w-[91px] min-h-[18px] gap-[6px]">
