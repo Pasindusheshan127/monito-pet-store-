@@ -7,7 +7,9 @@ import ProductCards from "@/components/ProductCards";
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      <div className=" bg-[#FCEED5]">
+        <Navbar />
+      </div>
       <PetCards />
       <ProductCards />
       <KnowledgeCards />
