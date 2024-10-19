@@ -4,7 +4,7 @@ import React from "react";
 const Filter = () => {
   return (
     // Main filter container
-    <div className="w-auto h-auto min-h-[572px] min-w-[280px] top-[603px] left-[130px] ">
+    <div className="border w-auto h-auto min-h-[572px] min-w-[280px] top-[603px] left-[130px] ">
       {/* Gender filter section */}
       <div className="w-full h-auto min-w-[280px] min-h-[98px] border-b border-[#EBEEEF]">
         {/* Gender title */}
