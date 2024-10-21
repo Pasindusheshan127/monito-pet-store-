@@ -65,7 +65,7 @@ const Navbar = () => {
             <input
               type="text"
               placeholder="Search something here"
-              className="font-[500px] text-[14px] leading-5 text-[#99A2A5]"
+              className="font-[500px] text-[14px] leading-5 text-[#99A2A5] outline-none"
             />
           </div>
           {/* Join Community Button */}
