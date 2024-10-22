@@ -7,7 +7,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="w-[1440px] h-[3119px] ">
+    <div className="h-auto w-auto min-w-[1440px] min-h-[3119px] ">
       <div className="px-[130px]">
         <Navbar />
       </div>

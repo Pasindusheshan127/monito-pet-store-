@@ -4,10 +4,8 @@ import FunVideoAdd from "@/components/FunVideoAdd";
 import HeroBanner from "@/components/HeroBanner";
 import ItemsHeader from "@/components/ItemsHeader";
 import KnowledgeCards from "@/components/KnowledgeCards";
-import Navbar from "@/components/Nabbar";
 import PetCards from "@/components/PetCards";
 import ProductCards from "@/components/ProductCards";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 
 // External Data import

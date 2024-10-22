@@ -5,7 +5,11 @@ import React from "react";
 const Filter = () => {
   return (
     // Main filter container
-    <div className="border w-auto h-auto min-h-[572px] min-w-[280px] top-[603px] left-[130px] ">
+    <div className=" w-auto h-auto min-h-[572px] min-w-[280px] top-[603px] left-[130px] ">
+      {/* Title */}
+      <div className="w-[57px] h-[57px] my-3 font-[700] text-[24px] leading-[36px] text-[#003459]">
+        Filter
+      </div>
       {/* Gender filter section */}
       <div className="w-full h-auto min-w-[280px] min-h-[98px] border-b border-[#EBEEEF]">
         {/* Gender title */}
@@ -117,7 +121,7 @@ const Filter = () => {
         </div>
       </div>
       {/* Price filter section */}
-      <div className="w-full h-auto min-w-[280px] min-h-[106px] border-b border-[#EBEEEF]">
+      <div className="w-full h-auto min-w-[280px] min-h-[106px] border-b border-[#EBEEEF] mt-4">
         {/* Price title */}
         <div className="w-[37px] h-6 font-[700] text-[16px] leading-6 text-[#00171F]">
           Price
