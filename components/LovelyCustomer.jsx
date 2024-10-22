@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"; // Core Swiper styles
 import "swiper/css/pagination"; // Swiper pagination styles
@@ -11,7 +11,7 @@ import { Navigation, Pagination } from "swiper/modules"; // Import Pagination an
 const url = "https://monitor-backend-rust.vercel.app/api/customers";
 
 const LovelyCustomer = () => {
-  const [customers, setCustomers] = React.useState([]);
+  const [customers, setCustomers] = useState([]);
   const getCustomersFromBackend = async () => {
     const data = await fetch(url);
 
@@ -38,7 +38,10 @@ const LovelyCustomer = () => {
             slidesPerView={4}
             spaceBetween={20}
             loop={true}
-            pagination={{ clickable: true, el: ".swiper-pagination-custom" }}
+            pagination={{
+              clickable: true,
+              // el: ".swiper-pagination-custom"
+            }}
             breakpoints={{
               640: { slidesPerView: 2 },
               768: { slidesPerView: 3 },

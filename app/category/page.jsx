@@ -3,6 +3,8 @@ import DogList from "@/components/DogList";
 import Filter from "@/components/Filter";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Nabbar";
+import PetsImageSlider from "@/components/PetsImageSlider";
+import SmallImageSlider from "@/components/SmallImageSlider";
 import React from "react";
 
 const page = () => {

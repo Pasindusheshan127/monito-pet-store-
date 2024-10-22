@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+import PetsImageSlider from "./PetsImageSlider";
 
 const Productinfo = () => {
   return (
@@ -9,8 +10,68 @@ const Productinfo = () => {
       <div className="mx-[130px]">
         <div className="w-full grid grid-cols-2 min-w-[1180px] h-auto min-h-[826px] rounded-[20px] py-[22px] px-[20px] gap-[34px] border border-[#EBEEEF] bg-[#FDFDFD] ">
           {/* Image Carousel */}
-          <div className="border w-full min-w-[560px] h-auto min-h-[706px] gap-4">
-            image
+          <div className="w-full min-w-[560px] h-auto min-h-[706px] gap-4">
+            <PetsImageSlider />
+            <div className="flex w-full h-auto min-h-[48px] min-w-[560px] rounded-[10px] justify-between py-[9px] px-[12px]  mt-4">
+              {/*  */}
+              <div className="flex w-auto h-auto min-w-[244px] min-h-[30px] gap-[9px]">
+                <div className="w-[20px] h-[20px] border"></div>
+                <div className="w-[225px] h-[20px] font-[700] text-[14px] leading-5 text-[#002A48]">
+                  100% health guarantee for pets
+                </div>
+              </div>
+              {/*  */}
+              <div className="flex w-auto h-auto min-w-[277px] min-h-[30px] gap-[9px]">
+                <div className="w-[20px] h-[20px] border"></div>
+                <div className="w-[268px] h-[20px] font-[700] text-[14px] leading-5 text-[#002A48]">
+                  100% guarantee of pet identification
+                </div>
+              </div>
+            </div>
+            {/* Icons */}
+            <div className="flex w-auto min-w-[240px] h-[40px] py-[6px] px-[10px] gap-[21px] ">
+              {/* share */}
+              <div className="w-auto h-auto min-w-[70px] min-h-[20px] gap-8px flex">
+                <div className="w-5 h-5">
+                  <Image
+                    src="/assets/icons/share.svg"
+                    alt="share"
+                    width={20}
+                    height={20}
+                  />
+                </div>
+                <div className="w-[42px] h-[20px] font-[700] text-[14px] leading-5 text-[#002A4B]">
+                  Share:
+                </div>
+              </div>
+              {/* social media */}
+              <div className="flex w-fullm h-auto min-w-[129px] min-h-[18px] justify-between">
+                <Image
+                  src="/assets/icons/facebook.svg"
+                  alt="facebook"
+                  width={18}
+                  height={18}
+                />
+                <Image
+                  src="/assets/icons/twitter.svg"
+                  alt="facebook"
+                  width={18}
+                  height={18}
+                />
+                <Image
+                  src="/assets/icons/instagram.svg"
+                  alt="facebook"
+                  width={18}
+                  height={18}
+                />
+                <Image
+                  src="/assets/icons/youtube.svg"
+                  alt="facebook"
+                  width={18}
+                  height={18}
+                />
+              </div>
+            </div>
           </div>
           {/* Product Information */}
           <div className="h-auto w-auto min-w-[517px] min-h-[782px] gap-[18px]">

@@ -22,3 +22,52 @@
   opacity: 1;
   background-color: #007aff; /* Customize active bullet color */
 }
+
+.text-color {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: blue;
+}
+
+/* Custom styles for the Swiper navigation buttons */
+.custom-prev,
+.custom-next {
+  background-color: #ffffff66; /* Semi-transparent white background */
+  color: white; /* Color for the navigation arrow */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* Circular border */
+  border: 2px solid white; /* White border */
+  cursor: pointer;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.custom-prev {
+  left: -20px; /* Position of the 'Previous' button */
+}
+
+.custom-next {
+  right: -20px; /* Position of the 'Next' button */
+}
+
+.custom-prev::after,
+.custom-next::after {
+  font-size: 16px; /* Customize arrow size */
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.85
+  ); /* Slightly less transparent on hover */
+}

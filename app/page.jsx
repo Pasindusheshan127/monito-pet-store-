@@ -1,4 +1,5 @@
 "use client";
+import AddsBanner from "@/components/AddsBanner";
 import Footer from "@/components/Footer";
 import FunVideoAdd from "@/components/FunVideoAdd";
 import HeroBanner from "@/components/HeroBanner";
@@ -75,6 +76,11 @@ export default function Home() {
               <ProductCards key={product.id} product={product} />
             ))}
         </div>
+      </div>
+
+      {/* Adds Banner */}
+      <div className="px-[130px] w-full h-auto min-w-[1438px] min-h-[251px] py-[40px] gap-[15px]">
+        <AddsBanner />
       </div>
 
       {/* Knowledge Section */}

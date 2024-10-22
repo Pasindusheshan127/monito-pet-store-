@@ -50,40 +50,59 @@ const DogList = () => {
         {/* Dog List */}
         {pets.length > 0 &&
           pets.map((pet) => <PetCards key={pet.id} pet={pet} />)}
-
-        {/* Dog Card */}
-        {/* <div className="border w-auto h-auto min-w-[280px] min-h-[378px] top-[999px] left-[430px] rounded-xl p-2 gap-2 bg-[#FDFDFD]">
-          <div className="border w-[264px] h-[264px] rounded-[10px] bg-[#FFFFFF]"></div>
-          <div className="border w-auto h-auto min-w-[264px] min-h-[98px] pt-2 pr-2 pb-5 pl-2 gap-4">
-            <div className="border w-auto h-auto min-w-[248px] min-h-[70px] gap-[4px]">
-              <div className="w-[248px] h-[24px] font-[700px] leading-6 text-[#00171F]">
-                MO502 - Poodle Tiny Yellow
-              </div>
-              <div className="border flex w-full min-w-[248px] h-auto min-h-[18px] gap-1">
-                <div className="flex w-auto h-auto gap-[6px]">
-                  <div className="w-auto h-auto min-w-[34px] min-h-[18px] font-[500] text-[12px] leading-[18px] text-[#667479]">
-                    Gene:
-                  </div>
-                  <div className="w-auto h-auto min-w-[41px] min-h-[18px] font-[700] text-[12px] leading-[18px] text-[#667479]">
-                    Female
-                  </div>
-                </div>
-                <div className="w-[4px] h-[4px] rounded-full bg-[#667479] m-2"></div>
-                <div className="flex w-auto h-auto min-w-[91px] min-h-[18px] gap-[6px]">
-                  <div className="w-auto h-auto min-w-[26px] min-h-[18px] font-[500] text-[12px] leading-[18px] text-[#667479]">
-                    Age:
-                  </div>
-                  <div className="w-auto h-auto min-w-[59px] min-h-[18px] font-[700] text-[12px] leading-[18px] text-[#667479]">
-                    02 months
-                  </div>
-                </div>
-              </div>
-              <div className="w-[248px] h-5 font-[700] text-[14px] leading-5 text-[#00171F]">
-                3.900.000 VND
-              </div>
-            </div>
+      </div>
+      {/* pgination */}
+      <div className="flex items-center ml-[280px] mb-4 w-auto h-auto min-w-[356px] min-h-[34px]  gap-[12px]">
+        <div className="w-[34px] h-[34px] rounded-[8px] px-[2px] gap-[10px ">
+          <div className="h-6 w-6">
+            <Image
+              src="/assets/icons/leftarrw.svg"
+              alt=""
+              width={24}
+              height={24}
+            />
           </div>
-        </div> */}
+        </div>
+        <div className="w-8 h-8 rounded-[8px] pt-[6px] pr-[13px] pl-[13px] pb-[4px] gap-[10px] bg-[#003459]">
+          <div className="text-[#FDFDFD] w-[7px] h-[24px] font-[700] text-[18px] leading-6">
+            1
+          </div>
+        </div>
+        <div className="w-[34px] h-[34px] rounded-[10px] pt-[6px] pr-[11px]pb-[4px] pl-[11px] gap-[10px] ">
+          <div className=" w-[7px] h-[24px] font-[700] text-[18px] leading-6">
+            2
+          </div>
+        </div>
+        <div className="w-[34px] h-[34px] rounded-[10px] pt-[6px] pr-[11px]pb-[4px] pl-[11px] gap-[10px] ">
+          <div className=" w-[7px] h-[24px] font-[700] text-[18px] leading-6">
+            3
+          </div>
+        </div>
+        <div className="w-[34px] h-[34px] rounded-[10px] pt-[6px] pr-[11px]pb-[4px] pl-[11px] gap-[10px] ">
+          <div className=" w-[7px] h-[24px] font-[700] text-[18px] leading-6">
+            4
+          </div>
+        </div>
+        <div className="w-[34px] h-[34px] rounded-[10px] pt-[6px] pr-[11px]pb-[4px] pl-[11px] gap-[10px] ">
+          <div className=" w-[7px] h-[24px] font-[700] text-[18px] leading-6">
+            ...
+          </div>
+        </div>
+        <div className="w-[34px] h-[34px] rounded-[10px] pt-[6px] pr-[11px]pb-[4px] pl-[11px] gap-[10px] ">
+          <div className=" w-[7px] h-[24px] font-[700] text-[18px] leading-6">
+            28
+          </div>
+        </div>
+        <div className="w-[34px] h-[34px] rounded-[8px] px-[2px] gap-[10px ">
+          <div className="h-6 w-6">
+            <Image
+              src="/assets/icons/rightarrw.svg"
+              alt=""
+              width={24}
+              height={24}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

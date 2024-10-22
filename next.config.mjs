@@ -6,25 +6,31 @@ const nextConfig = {
         protocol: "https",
         hostname: "monitor-backend-rust.vercel.app",
         port: "",
-        pathname: "/api/customers/**", // Existing pattern for customers
+        pathname: "/api/customers/**",
       },
       {
         protocol: "https",
         hostname: "monitor-backend-rust.vercel.app",
         port: "",
-        pathname: "/api/pets/**", // Existing pattern for pets
+        pathname: "/api/pets/**",
       },
       {
         protocol: "https",
-        hostname: "firebasestorage.googleapis.com", // New entry for Firebase Storage
+        hostname: "firebasestorage.googleapis.com",
         port: "",
-        pathname: "/**", // Allow access to any path under this hostname
+        pathname: "/**",
       },
       {
         protocol: "https",
-        hostname: "s3-alpha-sig.figma.com", // New entry for Figma images
+        hostname: "s3-alpha-sig.figma.com",
         port: "",
-        pathname: "/**", // Allow access to any path under this hostname
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "www.figma.com",
+        port: "",
+        pathname: "/**",
       },
     ],
   },
