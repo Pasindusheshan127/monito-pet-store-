@@ -54,7 +54,7 @@ const Navbar = () => {
           </ul>
         </div>
         {/* Right Section: Search Bar, Join Button, and Currency Selector */}
-        <div className="flex items-center gap-[14px] w-auto min-w-[615px] h-auto min-h-[44px]">
+        <div className="flex items-center gap-[14px] w-auto min-w-[615px] h-auto min-h-[44px] ml-2">
           {/* Search Bar */}
           <div className="flex w-[280px] h-auto min-h-[44px] rounded-[46px] px-3 pr-5 pl-4 gap-3 bg-[#FDFDFD]">
             <Image
@@ -66,7 +66,7 @@ const Navbar = () => {
             <input
               type="text"
               placeholder="Search something here"
-              className="font-[500px] text-[14px] leading-5 text-[#99A2A5] outline-none"
+              className="font-[500] text-[14px] leading-5 text-[#99A2A5] outline-none"
             />
           </div>
           {/* Join Community Button */}
