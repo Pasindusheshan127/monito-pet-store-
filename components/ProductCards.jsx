@@ -4,7 +4,7 @@ import React from "react";
 
 const ProductCards = ({ product }) => {
   return (
-    <div className=" w-[280px] h-[446px] rounded-[12px] p-2 gap-2 bg-[#FDFDFD]">
+    <div className="cursor-pointer w-[280px] h-[446px] rounded-[12px] p-2 gap-2 bg-[#FDFDFD]">
       {/* product image */}
       <div className="w-[264px] h-[264px]">
         <Image

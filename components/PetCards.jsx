@@ -4,7 +4,7 @@ import React from "react";
 
 const PetCards = ({ pet }) => {
   return (
-    <div className="w-auto h-auto min-w-[280px] min-h-[378px] max-h-[400px] top-[548px] left-[1030px] rounded-xl pt-2 px-2 gap-2 bg-[#FFFFFF]">
+    <div className="cursor-pointer w-auto h-auto min-w-[185px]  min-h-[318px] md:min-w-[280px] md:min-h-[378px]  max-h-[400px] top-[548px] left-[1030px] rounded-xl pt-2 px-2 sm:gap-1 md:gap-2 bg-[#FFFFFF]">
       {/* Pet Image */}
       <Image
         src={pet?.image || "/assets/images/puppy.png"}

@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import StarCircle from "./StarCircle";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -20,36 +21,36 @@ const Navbar = () => {
           {/* Navigation Links */}
           <ul className="flex w-auto min-w-[366px] h-auto min-h-[24px] gap-12 py-2 ">
             <li>
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="font-[700] text-[16px] leading-6 text-[#003459] hover:text-[[#030d13]"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/category"
                 className="font-[700] text-[16px] leading-6 text-[#003459] hover:text-[#030d13]]"
               >
                 Category
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="font-[700] text-[16px] leading-6 text-[#003459] hover:text-[#030d13]"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="font-[700] text-[16px] leading-6 text-[#003459] hover:text-[#030d13]"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

@@ -29,7 +29,7 @@ const AddsBanner = () => {
         </button>
       </div>
       {/* Adds */}
-      <div className="flex w-full h-full min-w-[1180px] min-h-[112px] gap-5 mt-4">
+      <div className="flex w-full h-full min-w-[1180px] min-h-[112px] gap-5 mt-6">
         {/* Add 1 */}
         <div className="w-full h-full min-w-[151px] min-h-[112px] pr-[16px] pl-[16px] gap-[10px]">
           <Image

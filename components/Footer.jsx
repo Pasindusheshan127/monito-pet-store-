@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -32,18 +33,26 @@ const Footer = () => {
           {/* Navigation Links */}
           <div className="w-auto min-w-[402px] h-auto min-h-[24px] ">
             <ul className="flex gap-[60px]">
-              <li className="font-[500] text-[16px] leading-6 text-[#00171F] w-11 h-6">
-                Home
-              </li>
-              <li className="font-[500] text-[16px] leading-6 text-[#00171F] w-11 h-6">
-                Category
-              </li>
-              <li className="font-[500] text-[16px] leading-6 text-[#00171F] w-11 h-6">
-                About
-              </li>
-              <li className="font-[500] text-[16px] leading-6 text-[#00171F] w-11 h-6">
-                Contact
-              </li>
+              <Link href="/">
+                <li className="cursor-pointer font-[500] text-[16px] leading-6 text-[#00171F] w-11 h-6">
+                  Home
+                </li>
+              </Link>
+              <Link href="/category">
+                <li className="cursor-pointer font-[500] text-[16px] leading-6 text-[#00171F] w-11 h-6">
+                  Category
+                </li>
+              </Link>
+              <Link href="/">
+                <li className="cursor-pointer font-[500] text-[16px] leading-6 text-[#00171F] w-11 h-6">
+                  About
+                </li>
+              </Link>
+              <Link href="/">
+                <li className="cursor-pointer font-[500] text-[16px] leading-6 text-[#00171F] w-11 h-6">
+                  Contact
+                </li>
+              </Link>
             </ul>
           </div>
           {/* Social Media Icons */}
@@ -53,28 +62,28 @@ const Footer = () => {
               alt="Facebook"
               width={24}
               height={24}
-              className=""
+              className=" cursor-pointer "
             />
             <Image
               src="/assets/icons/twitter.svg"
               alt="twitter"
               width={24}
               height={24}
-              className=""
+              className=" cursor-pointer "
             />
             <Image
               src="/assets/icons/instagram.svg"
               alt="instagram"
               width={24}
               height={24}
-              className=""
+              className=" cursor-pointer "
             />
             <Image
               src="/assets/icons/youtube.svg"
               alt="youtube"
               width={24}
               height={24}
-              className="rounded-full"
+              className="rounded-full cursor-pointer "
             />
           </div>
         </div>
