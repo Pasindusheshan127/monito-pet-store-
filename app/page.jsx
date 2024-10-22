@@ -1,5 +1,6 @@
 "use client";
 import Footer from "@/components/Footer";
+import HeroBanner from "@/components/HeroBanner";
 import ItemsHeader from "@/components/ItemsHeader";
 import KnowledgeCards from "@/components/KnowledgeCards";
 import Navbar from "@/components/Nabbar";
@@ -42,9 +43,9 @@ export default function Home() {
 
   return (
     <div>
-      {/* Navigation Bar Section */}
-      <div className=" bg-[#FCEED5]">
-        <Navbar />
+      {/* Her section */}
+      <div className="">
+        <HeroBanner />
       </div>
 
       {/* Pets Details Section */}
@@ -58,6 +59,9 @@ export default function Home() {
             pets.map((pet) => <PetCards key={pet.id} pet={pet} />)}
         </div>
       </div>
+
+      {/* One MoreFriend .. ADD */}
+      <div className=""></div>
 
       {/* Product Details Section */}
       <div className="border w-auto min-w-[1440px] h-auto min-h-[622px] top-[2059px] px-[130px] my-2">

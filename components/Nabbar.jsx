@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="">
       {/* Desktop Navbar */}
-      <div className="flex justify-between items-center pt-[28px] pr-[130px] pb-[28px] pl-[130px] w-auto min-w-[100px]">
+      <div className="flex justify-between items-center pt-[28px]  pb-[28px]  w-auto min-w-[100px]">
         {/* Left Section: Logo and Navigation Links */}
         <div className=" flex gap-12 w-auto min-w-[529px] h-auto min-h-[40px]">
           {/* LOGO  */}
