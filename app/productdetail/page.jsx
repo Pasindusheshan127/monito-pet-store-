@@ -1,7 +1,7 @@
+import LovelyCustomer from "@/components/LovelyCustomer";
 import Navbar from "@/components/Nabbar";
 import Productinfo from "@/components/Productinfo";
 
-import Image from "next/image";
 import React from "react";
 
 const page = () => {
@@ -11,6 +11,7 @@ const page = () => {
       {/* Product Detail */}
       <Productinfo />
       {/* Our Lovely Customer Section */}
+      <LovelyCustomer />
     </div>
   );
 };
