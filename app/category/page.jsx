@@ -1,3 +1,4 @@
+import CategoryBanner from "@/components/CategoryBanner";
 import DogList from "@/components/DogList";
 import Filter from "@/components/Filter";
 import Footer from "@/components/Footer";
@@ -6,10 +7,15 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="w-[1440px] h-[3119px] px-[130px]">
-      <Navbar />
+    <div className="w-[1440px] h-[3119px] ">
+      <div className="px-[130px]">
+        <Navbar />
+      </div>
+
       {/* Banner */}
-      <div className=""></div>
+      <div className="px-[130px]">
+        <CategoryBanner />
+      </div>
 
       {/*  */}
       <div className="flex">
