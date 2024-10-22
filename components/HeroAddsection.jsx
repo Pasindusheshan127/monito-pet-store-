@@ -5,16 +5,16 @@ const HeroAddsection = () => {
   return (
     <div>
       {/* hero buttons and titles */}
-      <div className="absolute top-[178px] left-[130px] w-auto h-auto min-w-[488px] min-h-[420px]  border ">
+      <div className="w-auto h-auto min-w-[488px] min-h-[420px]  ">
         {/* hero title */}
         <div className="w-[465px] h-[68px] font-[800] text-[55px] leading-[68px] text-[#002A48]">
           One more friend
         </div>
-        <div className="w-[452px] h-[60px] top-[252px] font-[700px] text-[46px] leading-[60px] text-[#002A48]">
+        <div className="w-[452px] h-[60px] font-[700px] text-[46px] leading-[60px] text-[#002A48]">
           Thousands more fun!
         </div>
         {/* paragraph */}
-        <div className="w-[480px] h-[72px] top-[336px] font-[500] leading-6 text-[16px] text-[#242B33]">
+        <div className="w-[480px] h-[72px] font-[500] leading-6 text-[16px] text-[#242B33]">
           Having a pet means you have more joy, a new friend, a happy person who
           will always be with you to have fun. We have 200+ different pets that
           can meet your needs!

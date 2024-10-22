@@ -20,6 +20,12 @@ const nextConfig = {
         port: "",
         pathname: "/**", // Allow access to any path under this hostname
       },
+      {
+        protocol: "https",
+        hostname: "s3-alpha-sig.figma.com", // New entry for Figma images
+        port: "",
+        pathname: "/**", // Allow access to any path under this hostname
+      },
     ],
   },
 };

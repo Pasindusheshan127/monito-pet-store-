@@ -6,8 +6,12 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="w-[1440px] h-[3119px]">
+    <div className="w-[1440px] h-[3119px] px-[130px]">
       <Navbar />
+      {/* Banner */}
+      <div className=""></div>
+
+      {/*  */}
       <div className="flex">
         <div className="w-1/4 pl-[130px]">
           <Filter />

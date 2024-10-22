@@ -1,5 +1,6 @@
 "use client";
 import Footer from "@/components/Footer";
+import FunVideoAdd from "@/components/FunVideoAdd";
 import HeroBanner from "@/components/HeroBanner";
 import ItemsHeader from "@/components/ItemsHeader";
 import KnowledgeCards from "@/components/KnowledgeCards";
@@ -61,7 +62,9 @@ export default function Home() {
       </div>
 
       {/* One MoreFriend .. ADD */}
-      <div className=""></div>
+      <div className="px-[130px] py-10">
+        <FunVideoAdd />
+      </div>
 
       {/* Product Details Section */}
       <div className="border w-auto min-w-[1440px] h-auto min-h-[622px] top-[2059px] px-[130px] my-2">
