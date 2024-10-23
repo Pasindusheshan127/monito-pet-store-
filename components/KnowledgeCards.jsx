@@ -4,7 +4,7 @@ import React from "react";
 
 const KnowledgeCards = ({ Knowledge }) => {
   return (
-    <div className="flex">
+    <div className="flex flex-col md:flex-row">
       {/* cards */}
 
       {/* Card Blog 1*/}

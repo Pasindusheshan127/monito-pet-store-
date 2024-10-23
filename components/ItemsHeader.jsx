@@ -17,7 +17,9 @@ const ItemsHeader = () => {
           </div>
         </div>
         {/* View More Button */}
-        <ViewButton />
+        <div className="hidden md:block">
+          <ViewButton />
+        </div>
       </div>
     </div>
   );

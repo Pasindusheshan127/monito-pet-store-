@@ -27,7 +27,7 @@ const page = () => {
   return (
     <div>
       {/* Navigation Bar */}
-      <div className="mx-[130px] mb-3">
+      <div className="px-[16px] md:mx-[130px] mb-3">
         <Navbar />
       </div>
 

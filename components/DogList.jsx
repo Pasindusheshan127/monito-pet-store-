@@ -25,7 +25,7 @@ const DogList = () => {
   return (
     <div className="">
       {/* Title */}
-      <div className="flex justify-between">
+      <div className="hidden md:flex justify-between">
         <div className="flex gap-4 my-3">
           <h1 className="w-auto h-auto min-w-[114px] min-h-[36px] gap-[2px] font-[700] text-[24px] leading-9 text-[#003459]">
             Small Dog
@@ -46,13 +46,14 @@ const DogList = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-4 overflow-hidden">
-        {/* Dog List */}
+      {/* Dogs list */}
+      <div className="grid grid-cols-2 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-[8px] my-[16px] lg:my-[28px]">
         {pets.length > 0 &&
           pets.map((pet) => <PetCards key={pet.id} pet={pet} />)}
       </div>
+
       {/* pgination */}
-      <div className="flex items-center ml-[280px] mb-4 w-auto h-auto min-w-[356px] min-h-[34px]  gap-[12px]">
+      <div className="flex items-center md:ml-[280px] mb-4 w-auto h-auto min-w-[356px] min-h-[34px]  gap-[12px]">
         <div className="w-[34px] h-[34px] rounded-[8px] px-[2px] gap-[10px ">
           <div className="h-6 w-6">
             <Image

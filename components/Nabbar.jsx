@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="">
       {/* Desktop Navbar */}
-      <div className="flex justify-between items-center pt-[28px]  pb-[28px]  w-auto min-w-[100px]">
+      <div className="hidden md:flex justify-between items-center pt-[28px]  pb-[28px]  w-auto min-w-[100px]">
         {/* Left Section: Logo and Navigation Links */}
         <div className=" flex gap-12 w-auto min-w-[529px] h-auto min-h-[40px]">
           {/* LOGO  */}
@@ -96,7 +96,7 @@ const Navbar = () => {
 
       {/* Mobile Navbar */}
 
-      {/* <div className="lg:hidden ">
+      <div className="flex justify-between md::hidden ">
         <div className="w-[32] h-[32]">
           <Image
             src="/assets/icons/menu.svg"
@@ -106,7 +106,18 @@ const Navbar = () => {
             className=""
           />
         </div>
-      </div> */}
+        {/* LOGO  */}
+        <div className="w-[115px] h-[40px] cursor-pointer">
+          <h1 className="text-3xl text-[#103559]">Monitó</h1>
+          <span className="text-sm text-center text-[#103559]">
+            pets for best
+          </span>
+        </div>
+        {/* Search icon */}
+        <div className="">
+          <Image src="/assets/icons/search.svg" alt="" width={24} height={24} />
+        </div>
+      </div>
     </nav>
   );
 };

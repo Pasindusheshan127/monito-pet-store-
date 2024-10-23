@@ -46,7 +46,7 @@ export default function Home() {
 
   return (
     <div>
-      {/* Her section */}
+      {/* Hero section */}
       <div className="">
         <HeroBanner />
       </div>
@@ -86,7 +86,7 @@ export default function Home() {
       </div>
 
       {/* One MoreFriend .. ADD */}
-      <div className="px-[130px] py-10">
+      <div className="px-[18px] md:px-[130px] my-5 md:py-10">
         <FunVideoAdd />
       </div>
 
@@ -125,12 +125,15 @@ export default function Home() {
       </div>
 
       {/* Knowledge Section */}
-      <div className="w-[1440px] h-[634px] top-[3810px] px-[130px]">
+      <div className=" px-[18px] w-auto h-auto md:w-[1440px] md:h-[634px] top-[3810px] md:px-[130px] mb-4">
         {/* Section Header */}
         <ItemsHeader />
         {/* Knowledge Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-1 overflow-hidden gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-3  overflow-hidden gap-2">
           <KnowledgeCards />
+        </div>
+        <div className="md:hidden">
+          <ViewButton />
         </div>
       </div>
       <Footer />
