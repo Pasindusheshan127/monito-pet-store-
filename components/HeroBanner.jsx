@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const HeroBanner = () => {
   return (
-    <div className="relative h-[628px] md:w-[1440px] md:h-[695px] px-4 md:px-[130px] rounded-br-[40px] rounded-bl-[20px] bg-gradient-to-br from-[#FCEED5] via-[#FCEED5] to-[#FFE7BA]] overflow-hidden">
+    <div className="relative h-[620px] md:w-[1440px] md:h-[695px] px-4 md:px-[130px] md:rounded-br-[40px] md:rounded-bl-[20px] bg-gradient-to-br from-[#FCEED5] via-[#FCEED5] to-[#FFE7BA]] overflow-hidden">
       {/* Navbar section, hidden on mobile devices */}
       <div className="">
         <Navbar />

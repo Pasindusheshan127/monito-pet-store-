@@ -11,10 +11,10 @@ const SmallImageSlider = () => {
   return (
     <div>
       {/* smaller image slider */}
-      <div className="w-[560px] h-[94px]">
+      <div className="w-[414px] md:w-[560px] h-[94px] overflow-hidden">
         <Swiper
-          slidesPerView={3}
-          spaceBetween={2}
+          slidesPerView={6}
+          spaceBetween={1}
           loop={true}
           breakpoints={{
             640: { slidesPerView: 6 },

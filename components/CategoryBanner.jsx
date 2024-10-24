@@ -27,7 +27,7 @@ const CategoryBanner = () => {
       </div>
 
       {/* For small screen */}
-      <div className="md:hidden w-[1180px] h-auto min-h-[441px] overflow-hidden bg-[#FCEED5]">
+      <div className="md:hidden w-[1180px] h-auto min-h-[486px] overflow-hidden bg-[#FCEED5]">
         <div className="flex-col  ">
           {/* Hero section, positioned absolutely on the page */}
           <div className="">

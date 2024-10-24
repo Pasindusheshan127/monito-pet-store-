@@ -11,9 +11,9 @@ import SmallImageSlider from "./SmallImageSlider";
 const PetsImageSlider = () => {
   return (
     <div className="flex flex-col gap-5">
-      <div className="w-[56px] h-[592px] gap-4">
+      <div className="w-auto  max-w-[114px] h-[573px]  md:w-[56px] md:h-[592px] gap-4">
         {/*larger image slider  */}
-        <div className="w-[550px] h-[476px] rounded-[10px]">
+        <div className="w-[414px]  md:w-[550px] h-[476px] rounded-[10px]">
           <Swiper
             slidesPerView={1}
             spaceBetween={50}
@@ -54,7 +54,7 @@ const PetsImageSlider = () => {
           </Swiper>
         </div>
       </div>
-      <div className="mt-1">
+      <div className="pl-[11px] md:p-0 mt-1">
         <SmallImageSlider />
       </div>
     </div>

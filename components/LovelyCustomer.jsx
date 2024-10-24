@@ -25,7 +25,7 @@ const LovelyCustomer = () => {
   }, []);
 
   return (
-    <div className="w-full min-w-[1180px] h-auto min-h-[471px] rounded-[20px] pt-[24px] pb-[26px] px-[130px]">
+    <div className=" w-[414px] h-auto min-h-[468px] md:w-full min-w-[1180px]  md:min-h-[471px] rounded-[20px] px-[16px] md:pt-[24px] md:pb-[26px] md:px-[130px]">
       <div className="w-full h-auto min-w-[1149px] min-h-[388px] pl-4 gap-3">
         {/* Title */}
         <h2 className="mb-5 w-[302px] h-[36px] font-[700] text-[24px] leading-9 text-[#00171F]">
@@ -36,7 +36,7 @@ const LovelyCustomer = () => {
         <div className="w-[1149px] h-[340px] overflow-hidden">
           <Swiper
             slidesPerView={4}
-            spaceBetween={20}
+            spaceBetween={10}
             loop={true}
             pagination={{
               clickable: true,

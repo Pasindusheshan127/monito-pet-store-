@@ -47,9 +47,11 @@ const DogList = () => {
         </div>
       </div>
       {/* Dogs list */}
-      <div className="grid grid-cols-2 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-[8px] my-[16px] lg:my-[28px]">
-        {pets.length > 0 &&
-          pets.map((pet) => <PetCards key={pet.id} pet={pet} />)}
+      <div className="w-[382px] md:w-auto">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-2 md:grid-cols-3  md::gap-[8px] my-[16px] lg:my-[28px]">
+          {pets.length > 0 &&
+            pets.map((pet) => <PetCards key={pet.id} pet={pet} />)}
+        </div>
       </div>
 
       {/* pgination */}

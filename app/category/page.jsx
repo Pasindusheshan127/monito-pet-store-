@@ -9,7 +9,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="h-auto w-auto min-w-[1440px] min-h-[2119px] ">
-      <div className="px-[16px] md:px-[130px]">
+      <div className="px-[16px] md:px-[130px] md:mb-10">
         <div className="h-[57px] w-[414px]">
           <Navbar />
         </div>
@@ -32,7 +32,7 @@ const page = () => {
           </div>
         </div>
         {/* For smaller screen */}
-        <div className="">
+        <div className="md:hidden">
           {/* head  */}
           <div className="">
             <div className=" flex w-auto h-auto max-w-[172px] min-h-[34px] rounded-[20px] border border-[#CCD1D2] pt-[6px] pb-[4px] pr-[10px] pl-[20px] gap-2 my-3">
