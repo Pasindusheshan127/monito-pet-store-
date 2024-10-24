@@ -96,7 +96,7 @@ const Navbar = () => {
 
       {/* Mobile Navbar */}
 
-      <div className="flex justify-between md::hidden ">
+      <div className="flex justify-between md:hidden ">
         <div className="w-[32] h-[32]">
           <Image
             src="/assets/icons/menu.svg"
